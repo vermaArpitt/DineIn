@@ -15,7 +15,10 @@ export default function Navbar(){
             </ul>
             <div className="navbar-right">
                 <img src={assets.search_icon} alt="search" style={{height: "20px"}}/>
-                <img src={assets.cart_icon} alt="cart" style={{height: "20px"}}/>
+                <div className="navbar-cart-icon">
+                    <img src={assets.cart_icon} alt="cart" style={{height: "20px"}}/>
+                    <div className="dot"></div>
+                </div>
                 <button className="login">Log In</button>
             </div>
         </div>
