@@ -1,9 +1,10 @@
 .navbar{
-    padding: 20px 100px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: green;
+    border-bottom: 2px solid rgb(228, 228, 228);
 }
 
 .navbar-menu{
@@ -38,6 +39,10 @@
     left: 20px;
 }
 
+.navbar-right img{
+    cursor: pointer;
+}
+
 .navbar-right button{
     padding: 5px 15px;
     background: transparent;
@@ -52,9 +57,9 @@
 .navbar-right button:hover{
     background-color: rgb(238, 183, 17);
     color: black;
-    font-size: 20px;
 }
 
 .navbar-menu .active{
     border-bottom: 2px solid rgb(91, 91, 91);
+    padding-bottom: 2px;
 }
