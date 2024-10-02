@@ -1,0 +1,41 @@
+.explore-menu{
+    margin: 0 auto;
+}
+
+.explore-menu h1{
+    font-size: max(2.5vw, 22px);
+}
+
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vw 3vw;
+}
+
+.explore-menu-item{
+    text-align: center;
+}
+
+.explore-menu-item .active{
+    border: 7px solid rgb(245, 204, 1);
+    padding: 2px;
+}
+
+.explore-menu-item img{
+    border-radius: 50%;
+    width: 9vw;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.explore-menu-item p{
+    font-size: max(1.5vw, 15px);
+    cursor: pointer;
+}
+
+.explore-menu hr{
+    background-color: rgb(228, 228, 228);
+    height: 2px;
+    margin: 10px 0;
+    border: none;
+}
